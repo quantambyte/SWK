@@ -1,0 +1,148 @@
+{
+  "index": {},
+  "hero": {
+    "welcome": "Willkommen bei",
+    "trusted": "Partner für Ihre digitale Reise",
+    "get-started": "Legen Sie los",
+    "our-services": "Unser Service"
+  },
+  "header": {
+    "home": "heim",
+    "aboutUs": "Über uns",
+    "productsServices": "Services",
+    "testimonials": "Kundenstimmen",
+    "consultUs": "Beratung"
+  },
+  "about": {
+    "heading": "Ihr Technologischer Partner des Vertrauens",
+    "content": "SWK Technologies GmbH Ihr Partner für erstklassige Remote-Technikteams und maßgeschneiderte Softwarelösungen. Wir sind auf Business Processing Outsourcing Staff Augmentation Cyber Security Cloud Computing Softwareentwicklung und vieles mehr spezialisiert. Verbessern Sie Ihre Effizienz und Sicherheit ohne die Nachhaltigkeit außen vor zu lassen. Erreichen Sie Ihre strategischen Ziele präzise und kostengünstig. Schaffen Sie mit uns Innovationen über Grenzen hinaus.",
+    "service1": {
+      "title": "Bleiben Sie verbunden",
+      "description": "Wir gestalten die Zukunft mit fortschrittlichen Technologie Lösungen die auf Ihre Bedürfnisse zugeschnitten sind."
+    },
+    "service2": {
+      "title": "Beteiligen Sie sich aktiv",
+      "description": "Wir stärken Ihre Geschäftsstrateie mit Insights unserer Experten und umfassenden Technologie Roadmaps."
+    },
+    "service3": {
+      "title": "Verbindungen aufbauen",
+      "description": "Mit unserem umfassenden IT-Support und Dienstleistungen sorgen wir für einen reibungslosen Betrieb."
+    }
+  },
+
+  "services": {
+    "heading": {
+      "part1": "Wir bieten",
+      "part2": "Spezialisten & Services"
+    },
+    "content": "Wir bieten eine breite Palette an Technologie Lösungen die den Erfolg Ihres Unternehmens steigern. Entdecken Sie wie wir Ihnen helfen können Ihre Ziele zu erreichen.",
+    "service1": "App & Web Dev",
+    "service2": "Cloud Computing",
+    "service3": "Cybersecurity",
+    "service4": "Artificial Intelligence",
+    "service5": "IIOT, Cobots & Robotics",
+    "service6": "Industry 4.0/5.0",
+    "service7": "Business Solutions (ERP)",
+    "service8": "Chatbots"
+  },
+  "whyUs": {
+    "title": "Wir bieten alle Arten von Dienstleistungen in Form von Software an",
+    "description": "SWK Technologies GmbH entwickelt mit dem Partner SWK Technologies benutzerfreundliche Lösungen.",
+    "option1": {
+      "title": "Thought leadership",
+      "content": "Wir nutzen unser Fachwissen in der Technologieintegration um Branchentrends zu erkennen und unsere Führungsposition weiter auszubauen."
+    },
+    "option2": {
+      "title": "Modernized prospecting",
+      "content": "Wir nutzen KI und Automatisierungstechnologien um eine effiziente und systematische Suche nach Neukunden zu gewährleisten. Unsere Online Präsens erhöht die Sichtbarkeit. Unsere Partnerschaften und Empfehlungen erweitern unsere Reichweite."
+    },
+    "option3": {
+      "title": "Showcasing success",
+      "content": "Wir heben die Erfolgsgeschichten unserer Kunden hervor. Unsere gemeinsamen Ergebnisse unterstreichen die greifbaren Vorteile unserer Dienstleistung. Wir nutzen auch Vorher-/Nachher-Szenarien und Kundenempfehlungen um Ihren und unseren Erfolg weiter zu illustrieren."
+    }
+  },
+  "testimonials": {
+    "heading": "Referenzen",
+    "subHeading": "Meinungen über uns",
+    "description": "Wir sorgen für einen reibungslosen Betrieb mit unserem umfassenden IT-Support und Dienstleistungen.",
+    "letsGetStarted": {
+      "heading": "Lassen Sie uns in Kontakt treten",
+      "description": "Bei SWK Technologies sind wir leidenschaftlich daran interessiert Veränderungen durch Technologie voranzutreiben. Egal ob potenzieller Kunde Partner oder Teammitglied wir laden Sie ein sich uns auf unserer Reise zur Gestaltung der digitalen Innovation anzuschließen.",
+      "action": "Beratung"
+    }
+  },
+  "footer": {
+    "address": "SWK Technologies GmbH. Memelstr. 8 47445 Moers Germany",
+    "home": "heim",
+    "aboutUs": "Über uns",
+    "productsServices": "Produkte & Services",
+    "testimonials": "Kundenstimmen",
+    "consult": "Beratung",
+    "subscribeNewsLetter": "Newsletter anmelden",
+    "enterEmail": "Geben Sie Ihre E-Mail Adresse an",
+    "subscribe": "Anmelden",
+    "copyright": "Copyright 2024 SWK Technologies GmbH Alle Rechte vorbehalten"
+  },
+  "companies": {
+    "heading": {
+      "part1": "Die besten Unternehmen vertrauen auf",
+      "part2": "SWK Technologies"
+    },
+    "content": "Vertrauen von mehr als 2500+ Unternehmen weltweit"
+  },
+  "Disclaimer": {
+    "heading": "Impressum",
+    "updated": "Aktualisiert am 1. Oktober 2024",
+
+    "companyTag": "SWK Technologies GmbH",
+    "Director": "Geschäftsführer: Maher Kurdi",
+    "Address": "Memelstr. 8 |  47445 Moers",
+
+    "RegisteredOffice": "Amtsgericht Kleve",
+    "HRB": "Handelsregister: HRB 18899",
+
+    "VATID": "USt-IdNr.: DE 361 893 425",
+    "Telephone": "Telefon +4915906570472",
+    "Email": "E-Mail: info@ktk-experts.com",
+
+    "contentHeading": "Inhalt des Onlineangebotes",
+    "Content of the online offer": "Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.",
+    "referencesLinksHeading": "Verweise und Links",
+    "References and links": "Bei direkten oder indirekten Verweisen auf fremde Webseiten (\"Hyperlinks\"), die außerhalb des Verantwortungsbereiches des Autors liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall in Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und es ihm technisch möglich und zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern. Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. Auf die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft der verlinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Deshalb distanziert er sich hiermit ausdrücklich von allen Inhalten aller verlinkten /verknüpften Seiten, die nach der Linksetzung verändert wurden. Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes gesetzten Links und Verweise sowie für Fremdeinträge in vom Autor eingerichteten Gästebüchern, Diskussionsforen, Linkverzeichnissen, Mailinglisten und in allen anderen Formen von Datenbanken, auf deren Inhalt externe Schreibzugriffe möglich sind. Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf die jeweilige Veröffentlichung lediglich verweist.",
+    "copyrightHeading": "Urheber- und Kennzeichenrecht",
+    "Copyright and trademark law": "Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der verwendeten Bilder, Grafiken, Tondokumente, Videosequenzen und Texte zu beachten, von ihm selbst erstellte Bilder, Grafiken, Tondokumente, Videosequenzen und Texte zu nutzen oder auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und Texte zurückzugreifen. Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter geschützt sind! Das Copyright für veröffentlichte, vom Autor selbst erstellte Objekte bleibt allein beim Autor der Seiten. Eine Vervielfältigung oder Verwendung solcher Grafiken, Tondokumente, Videosequenzen und Texte in anderen elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung des Autors nicht gestattet.",
+    "legalValidityHeading": "Rechtswirksamkeit dieses Haftungsausschlusses",
+    "Legal validity of this exclusion of liability": "Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt."
+  },
+  "CookieConsent": {
+    "content": "Durch Klicken auf \"Alle Cookies akzeptieren\" stimmen Sie zu, dass SWK Cookies auf Ihrem Gerät speichern und Informationen gemäß unserer ",
+    "CookiePolicy": "Cookie-Richtlinie",
+    "buttonFirst": "Nur notwendige",
+    "buttonSecond": "Alle akzeptieren"
+  },
+  "OurBusinessModel": {
+    "OurBusinessModel": "Unser Geschäftsmodell",
+    "title1": "Produktentwicklungs-Lebenszyklus",
+    "content1": "Von der Ideenfindung bis zum Launch begleiten wir Sie durch jede Phase des Produktentwicklungslebenszyklus und sorgen für Qualität und Effizienz.",
+    "title2": "Individuelle Softwareentwicklung",
+    "content2": "Wir entwickeln maßgeschneiderte Softwarelösungen, die auf Ihre individuellen Geschäftsanforderungen zugeschnitten sind, mit Fokus auf Skalierbarkeit und Leistung.",
+    "title3": "Remote-Teaming & Erweiterung",
+    "content3": "Erhöhen Sie die Fähigkeiten Ihres Teams mit unserem Remote-Talent, nahtlos in Ihren Workflow integriert für eine schnelle Skalierung."
+  },
+  "ContactForm": {
+    "contactUs": "Kontaktieren Sie uns",
+    "Name": "Name",
+    "Email": "E-Mail",
+    "Message": "Nachricht",
+    "Send": "Senden"
+  },
+  "People": {
+    "title": "Unser Team",
+    "content": "Lernen Sie unser Expertenteam kennen, das leidenschaftlich daran arbeitet, Visionen mit innovativen Strategien in die Realität umzusetzen",
+    "cto": "Chief Technology Officer",
+    "ceo": "Chief Executive Officer",
+    "coo": "Chief Operating Officer",
+    "cbdo": "Chief Business Development Officer",
+    "AdvisoryBoard": "Beratungsgremium"
+  }
+}

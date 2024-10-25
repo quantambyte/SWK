@@ -1,0 +1,148 @@
+{
+  "index": {},
+  "hero": {
+    "welcome": "Welcome to",
+    "trusted": "Trusted partner for your Digital Journey",
+    "get-started": "Get Started",
+    "our-services": "Our Services"
+  },
+  "header": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "productsServices": "Services",
+    "testimonials": "Testimonials",
+    "consultUs": "Contact Us"
+  },
+  "about": {
+    "heading": "Your Go To Technology Partner",
+    "content": "SWK Technologies, your partner for elite remote technical teams and bespoke software solutions. Specializing in App & Web Dev, Cloud Computing, Cyber Security, IoT, AI, Robotics, Industry 4.0/5.0, Business Solutions (ERP), Chat Bots and more, we enhance efficiency, safety, and sustainability. Achieve your strategic goals with precision and cost-effectiveness. Innovate beyond limits with us.",
+    "service1": {
+      "title": "Stay Connected",
+      "description": "Pioneering the future with cutting-edge technology solutions tailored to your business needs."
+    },
+    "service2": {
+      "title": "Encourage Participation",
+      "description": "Empowering your business strategy with expert insights and comprehensive technology roadmaps."
+    },
+    "service3": {
+      "title": "Build Connections",
+      "description": "Ensuring seamless operations with our full spectrum of managed IT support and services."
+    }
+  },
+  "services": {
+    "heading": {
+      "part1": "We Provide",
+      "part2": "Services"
+    },
+    "content": "We provide a wide range of technological solutions designed to enhance the success of your business. Discover how we can help you achieve your goals.",
+    "service1": "App & Web Dev",
+    "service2": "Cloud Computing",
+    "service3": "Cybersecurity",
+    "service4": "Artificial Intelligence",
+    "service5": "IIOT, Cobots & Robotics",
+    "service6": "Industry 4.0/5.0",
+    "service7": "Business Solutions (ERP)",
+    "service8": "Chatbots"
+  },
+  "whyUs": {
+    "title": "We run all kinds of services in form of software",
+    "description": "SWK Technologies innovates user-friendly solutions, leading with exceptional quality, grateful to clients and stakeholders for trust and support.",
+    "option1": {
+      "title": "Thought leadership",
+      "content": "Leveraging expertise in tech integrations and industry trends to establish our leadership and trustworthiness."
+    },
+    "option2": {
+      "title": "Modernized prospecting",
+      "content": "We use AI and automation for efficient targeting. Our online presence and industry involvement boost visibility. Partnerships and referrals expand our reach."
+    },
+    "option3": {
+      "title": "Showcasing success",
+      "content": "We spotlight our client success stories with case studies, testimonials, and video interviews. Our shared results and metrics underline the tangible benefits of our services. We also present before-and-after scenarios and client endorsements to further illustrate our success."
+    }
+  },
+  "testimonials": {
+    "heading": "Testimonials",
+    "subHeading": "What They Say About Us",
+    "description": "Ensuring seamless operations with our full spectrum of managed IT support and services.",
+    "letsGetStarted": {
+      "heading": "Let’s get in touch",
+      "description": "At SWK Technologies, we're passionate about driving change through technology. Whether you're a potential client, partner, or team member, we invite you to join us on our journey to shape the future of digital innovation.",
+      "action": "Get Started"
+    }
+  },
+  "footer": {
+    "address": "Memelstr 8, 47445 Moers, Germany",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "productsServices": "Products & Services",
+    "testimonials": "Testimonials",
+    "consult": "Contact Us",
+    "subscribeNewsLetter": "Subscribe to our Newsletter",
+    "enterEmail": "Enter your email",
+    "subscribe": "Subscribe",
+    "copyright": "Copyright 2024 SWK Technologies, All Rights Reserved"
+  },
+  "companies": {
+    "heading": {
+      "part1": "The best companies trust",
+      "part2": "SWK Technologies"
+    },
+    "content": "Trusted by more than 2500+ companies around the world"
+  },
+  "Disclaimer": {
+    "heading": "imprint",
+    "updated": "Updated 1 October 2024",
+
+    "companyTag": "SWK Technologies GmbH ",
+    "Director": "Managing Director: Maher Kurdi",
+    "Address": "Memelstr. 8 |  47445 Moers",
+
+    "RegisteredOffice": "Kleve District Court",
+    "HRB": "Commercial register: HRB 18899",
+
+    "VATID": "VAT ID number: DE 361 893 425",
+    "Telephone": "Telephone +4915906570472",
+    "Email": "Email: info@ktk-experts.com",
+
+    "contentHeading": "Content of the online offer",
+    "Content of the online offer": "The author assumes no liability for the topicality, correctness, completeness or quality of the information provided. Liability claims against the author relating to material or immaterial damage caused by the use or non-use of the information provided or by the use of incorrect and incomplete information are fundamentally excluded, unless the author can be proven to have acted intentionally or with gross negligence Fault exists. All offers are subject to change and non-binding. The author expressly reserves the right to change, supplement or delete parts of the pages or the entire offer without separate notice or to temporarily or permanently stop publication.",
+    "referencesLinksHeading": "References and Links",
+    "References and links": "In the case of direct or indirect references to external websites (\"Hyperlinks\") that lie outside the author's area of ​​responsibility, a liability obligation would only come into force in the case in which the author is aware of the content and it would be technically possible and reasonable for him to prevent use in the event of illegal content. The author hereby expressly declares that at the time the link was created, no illegal content was recognizable on the linked pages. The author has no influence whatsoever on the current and future design, content or authorship of the linked/connected pages. He therefore hereby expressly distances himself from all content on all linked/connected pages that were changed after the link was created. This statement applies to all links and references set within our own website as well as to third-party entries in guest books, discussion forums, link directories, mailing lists and all other forms of databases set up by the author, the content of which external write access is possible. For illegal, incorrect or incomplete content and in particular for damage resulting from the use or non-use of such information, the provider of the page to which reference was made is solely liable, not the person who merely refers to the respective publication via links.",
+    "copyrightHeading": "Copyright and Trademark Law",
+    "Copyright and trademark law": "The author strives to respect the copyrights of the images, graphics, audio documents, video sequences and texts used in all publications, to use images, graphics, audio documents, video sequences and texts that he has created himself or to use license-free graphics, audio documents, video sequences and texts. All brands and trademarks mentioned within the website and possibly protected by third parties are subject without restriction to the provisions of the applicable trademark law and the ownership rights of the respective registered owners. The conclusion that trademarks are not protected by third-party rights should not be drawn based on their mere mention! The copyright for published objects created by the author remains solely with the author of the pages. Reproduction or use of such graphics, audio documents, video sequences and texts in other electronic or printed publications is not permitted without the express consent of the author.",
+    "legalValidityHeading": "Legal Validity of this Disclaimer",
+    "Legal validity of this exclusion of liability": "This disclaimer of liability is to be viewed as part of the Internet offering from which reference was made to this page. If parts or individual formulations of this text do not, no longer or do not completely correspond to the applicable legal situation, the remaining parts of the document remain unaffected in their content and validity."
+  },
+  "CookieConsent": {
+    "content": "By clicking \"Accept all cookies\", you agree SWK can store cookies on your device and disclose information in accordance with our ",
+    "CookiePolicy": "Cookie Policy",
+    "buttonFirst": "Necessary only",
+    "buttonSecond": "Accept all"
+  },
+  "OurBusinessModel": {
+    "OurBusinessModel": "Our Business Model",
+
+    "title1": "Product Development Life Cycle",
+    "content1": "From ideation to launch, we guide you through every stage of the product development life cycle, ensuring quality and efficiency.",
+    "title2": "Custom Software Development",
+    "content2": "We develop tailor-made software solutions to meet your unique business needs, focusing on scalability and performance.",
+    "title3": "Remote Teaming & Augmentation",
+    "content3": "Boost your team's capabilities with our remote talent, seamlessly integrated into your workflow for rapid scaling."
+  },
+  "ContactForm": {
+    "contactUs": "Contact Us",
+    "Name": "Name",
+    "Email": "Email",
+    "Message": "Message",
+    "Send": "Send"
+  },
+  "People": {
+    "title": "Our team",
+    "content": "Meet our expert team, passionate about turning vision into reality with innovative strategies",
+    "cto": "Chief Technology Officer",
+    "ceo": "Chief Executive Officer",
+    "coo": "Chief Operating Officer",
+    "cbdo": "Chief Business Development Officer",
+    "AdvisoryBoard": "Advisory Board"
+  }
+}

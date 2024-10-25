@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1224px) {
+  .companies-bg {
+    background-image: url("../assets/companies.svg");
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.slick-list .slick-slide:not(:last-child) {
+  margin-right: 20px;
+}
+
+.gradient-bg {
+  background-image: linear-gradient(to right, #8b4b9b, #4c83b7, #51bdce);
+  /* background-image: radial-gradient(at bottom right, #014bea, #fff); */
+}
+
+.gradient-bg-ppl {
+  background-image: linear-gradient(to right, #8b4b9b, #4c83b7, #51bdce);
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #8b4b9b #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8b4b9b;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+  #navLinks :first-child {
+    display: none;
+  }
+}
+
+.hexagon {
+  position: relative;
+  width: 250px; /* Width of the hexagon */
+  height: 220px; /* Height is width * sqrt(3)/2 for a perfect hexagon */
+  background-color: #4b0082; /* Background color */
+  /* margin: 57.74px 0; Vertically center */
+  overflow: hidden;
+  clip-path: polygon(25% 6.7%, 75% 6.7%, 95% 50%, 75% 93.3%, 25% 93.3%, 5% 50%);
+}
+
+/* These styles are to make sure the Next.js image fills the hexagon */
+.hexagon :global(img) {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
