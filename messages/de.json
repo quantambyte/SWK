@@ -144,5 +144,63 @@
     "coo": "Chief Operating Officer",
     "cbdo": "Chief Business Development Officer",
     "AdvisoryBoard": "Beratungsgremium"
+  },
+  "DevelopmentCycle": {
+    "title": "SWK AI Software-Entwicklungszyklus",
+    "step1": {
+      "title": "Entdeckungsphase",
+      "content": "Unser BD- und Technikteam identifiziert das Kundenproblem, entwickelt eine Roadmap und sammelt relevante Daten und Ressourcen."
+    },
+    "step2": {
+      "title": "POC - Machbarkeitsnachweis",
+      "content": "Wir entwickeln eine einfache Version des Projekts im kleinen Maßstab, um die Praktikabilität zu testen und zu demonstrieren."
+    },
+    "step3": {
+      "title": "AI Software-Prototyp",
+      "content": "Wir bauen einen funktionierenden Prototyp, der KI-Algorithmen und Modelle integriert."
+    },
+    "step4": {
+      "title": "Kodierung & Modelltraining",
+      "content": "Wir schreiben und verfeinern kontinuierlich den Code für die optimale KI-Software, um die Leistung entsprechend den Kundenanforderungen sicherzustellen."
+    },
+    "step5": {
+      "title": "Bereitstellung & Testen",
+      "content": "Die Software wird in einer kontrollierten Umgebung bereitgestellt, gründlich getestet und Fehler werden behoben."
+    },
+    "step6": {
+      "title": "Lieferung & Updates",
+      "content": "Die Software wird gemäß dem ursprünglichen vereinbarten Umfang fertiggestellt und der Kunde bei Support und Wartung unterstützt."
+    }
+  },
+  "EndToEndDevelopmentCycle": {
+    "title": "END TO END DEVELOPMENT CYCLE",
+    "step1": {
+      "title": "Anforderungsanalyse",
+      "content": "Technisch fundierte Meetings, um das Benutzerkonzept und die Anforderungen im Detail zu verstehen."
+    },
+    "step2": {
+      "title": "Projektbeginn",
+      "content": "Drahtmodelle\nUI/UX\nPrototyp\nDemo"
+    },
+    "step3": {
+      "title": "Codierung & Entwicklung",
+      "content": "Unsere erfahrenen Vollzeit-Teammitglieder entwickeln das Produkt, wobei jeder Mitarbeiter 40-50 Stunden pro Woche beiträgt."
+    },
+    "step4": {
+      "title": "Testen",
+      "content": "Einheitstests, Systemtests und Abnahmetests werden gründlich durchgeführt, um sicherzustellen, dass das Produkt wie vorgesehen geliefert wird."
+    },
+    "step5": {
+      "title": "Bereitstellung",
+      "content": "Bereitstellungspakete, Schulungen und Installationsskripte zusammen mit dem Quellcode werden dem Kunden übergeben."
+    },
+    "step6": {
+      "title": "Kundenfeedback",
+      "content": "Kundenfeedback ist für uns sehr wertvoll, um Verbesserungen und zukünftige Projekte zu realisieren."
+    },
+    "step7": {
+      "title": "Wartung & Updates",
+      "content": "Wir bieten unseren Kunden umfassende Unterstützung für zukünftige Updates oder Fehlerbehebungen/vorbeugende Softwareüberprüfungen an."
+    }
   }
 }

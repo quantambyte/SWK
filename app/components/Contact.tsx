@@ -45,10 +45,7 @@ const ContactForm: React.FC = () => {
   }, [state.succeeded, state.errors]);
 
   return (
-    <section
-      id="contact"
-      className="font-poppins  py-20  bg-gray-100 dark:bg-gray-900 dark:text-gray-200"
-    >
+    <section id="contact" className="font-poppins  py-20  dark:text-gray-200">
       <form
         onSubmit={onSubmit}
         className="space-y-6 mx-auto w-[80%] md:w-[60%]"
@@ -72,7 +69,7 @@ const ContactForm: React.FC = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-brand focus:border-brand"
+            className="mt-1 block w-full px-3 py-2 bg-white dark:bg-brandDark border border-gray-300 dark:border-gray-600 rounded-md text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-brand focus:border-brand"
             required
           />
           <ValidationError
@@ -96,7 +93,7 @@ const ContactForm: React.FC = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-brand focus:border-brand"
+            className="mt-1 block w-full px-3 py-2 bg-white dark:bg-brandDark border border-gray-300 dark:border-gray-600 rounded-md text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-brand focus:border-brand"
             required
           />
           <ValidationError
@@ -120,9 +117,9 @@ const ContactForm: React.FC = () => {
             rows={4}
             value={formData.message}
             onChange={handleChange}
-            className="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-brand focus:border-brand"
+            className="mt-1 block w-full px-3 py-2 resize-none bg-white dark:bg-brandDark border border-gray-300 dark:border-gray-600 rounded-md text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-brand focus:border-brand"
             required
-          ></textarea>
+          />
           <ValidationError
             prefix="Message"
             field="message"
@@ -134,7 +131,7 @@ const ContactForm: React.FC = () => {
         <button
           type="submit"
           disabled={state.submitting}
-          className="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-middleBlue dark:bg-brand hover:bg-brand dark:hover:bg-brand focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand"
+          className="w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-brand focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand"
         >
           {state.submitting ? "Sending..." : t("Send")}
         </button>

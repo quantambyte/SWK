@@ -12,8 +12,8 @@ export default function Footer() {
   const activeLocale = useLocale();
 
   return (
-    <footer className="px-4 sm:px-10 md:px-20 lg:px-52 py-20 font-poppins min-h-[30vh] relative bg-middleBlue dark:bg-brandDark bg-wave-img bg-cover bg-center">
-      <div className="grid gird-cols-1 md:grid-cols-2 mb-5 gap-12 md:gap-20 z-50 md:mb-20 lg:mb-44">
+    <footer className="px-4 sm:px-10 md:px-20 lg:px-52 py-20 font-poppins min-h-[30vh] relative bg-brand dark:bg-brandDark bg-wave-img bg-cover bg-center">
+      <div className="grid gird-cols-1 md:grid-cols-2 mb-5 gap-12 md:gap-20 z-50 md:mb-20 lg:mb-44 ">
         <div
           className={`flex flex-col items-center md:items-start text-center md:text-left gap-3 ${
             activeLocale === DE_LOCALE ? "items-end" : "items-start"

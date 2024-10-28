@@ -21,8 +21,22 @@ html {
 }
 
 .gradient-bg {
-  background-image: linear-gradient(to right, #8b4b9b, #4c83b7, #51bdce);
-  /* background-image: radial-gradient(at bottom right, #014bea, #fff); */
+  background-image: linear-gradient(
+    to right,
+    #1b1028,
+    #8b4b9b,
+    #1b1028
+  ) !important;
+}
+
+.gradient-bg-light {
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(236, 218, 240, 1) 0%,
+    rgba(180, 111, 197, 1) 100%,
+    rgba(180, 111, 197, 1) 100%
+  );
 }
 
 .gradient-bg-ppl {
@@ -55,6 +69,19 @@ html {
   #navLinks :first-child {
     display: none;
   }
+}
+
+.hexagon-container {
+  position: relative;
+  width: 260px; /* Width of the hexagon */
+  height: 230px; /* Height is width * sqrt(3)/2 for a perfect hexagon */
+  background-color: #ae77d6; /* Background color */
+  /* margin: 57.74px 0; Vertically center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  clip-path: polygon(25% 6.7%, 75% 6.7%, 95% 50%, 75% 93.3%, 25% 93.3%, 5% 50%);
 }
 
 .hexagon {

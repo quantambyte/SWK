@@ -1,17 +1,17 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { useLocale } from 'next-intl';
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import React, { useState, useEffect } from "react";
+import { useLocale } from "next-intl";
+import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 export default function CookieConsent() {
   const [isVisible, setIsVisible] = useState(false);
   const localeActive = useLocale();
 
-  const t = useTranslations('CookieConsent');
+  const t = useTranslations("CookieConsent");
 
-  const COOKIE_CONSENT_KEY = 'cookieConsent';
+  const COOKIE_CONSENT_KEY = "cookieConsent";
 
   useEffect(() => {
     const consent = localStorage.getItem(COOKIE_CONSENT_KEY);
@@ -21,12 +21,12 @@ export default function CookieConsent() {
   }, []);
 
   const handleAcceptAllCookies = () => {
-    localStorage.setItem(COOKIE_CONSENT_KEY, 'all');
+    localStorage.setItem(COOKIE_CONSENT_KEY, "all");
     setIsVisible(false);
   };
 
   const handleNecessaryCookies = () => {
-    localStorage.setItem(COOKIE_CONSENT_KEY, 'necessary');
+    localStorage.setItem(COOKIE_CONSENT_KEY, "necessary");
     setIsVisible(false);
   };
 
@@ -40,12 +40,12 @@ export default function CookieConsent() {
         <div className="flex items-start space-x-4">
           <div className="text-xl md:text-2xl">🍪</div>
           <p className="text-xs md:text-sm">
-            {t('content')}
+            {t("content")}
             <Link
               href={`/${localeActive}/info/policy`}
               className="text-blue-500 hover:underline"
             >
-              {t('CookiePolicy')}
+              {t("CookiePolicy")}
             </Link>
             .
           </p>
@@ -55,13 +55,13 @@ export default function CookieConsent() {
             onClick={handleNecessaryCookies}
             className="bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-white px-4 py-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600"
           >
-            {t('buttonFirst')}
+            {t("buttonFirst")}
           </button>
           <button
             onClick={handleAcceptAllCookies}
-            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+            className=" text-white px-4 py-2 rounded-md hover:bg-middleBlue dark:hover:bg-brand"
           >
-            {t('buttonSecond')}
+            {t("buttonSecond")}
           </button>
         </div>
       </div>

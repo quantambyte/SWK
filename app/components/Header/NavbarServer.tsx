@@ -1,15 +1,15 @@
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-import { LocaleSwitcher, ThemeSwitcher } from 'app/components';
+import { LocaleSwitcher, ThemeSwitcher } from "app/components";
 
-import { HEADER_LINKS } from '@/config';
-import Button from '@/components/Button';
-import NavLogo from './NavLogo';
-import { useLocale } from 'next-intl';
+import { HEADER_LINKS } from "@/config";
+import Button from "@/components/Button";
+import NavLogo from "./NavLogo";
+import { useLocale } from "next-intl";
 
 export default function NavbarServer() {
-  const t = useTranslations('header');
+  const t = useTranslations("header");
   const localActive = useLocale();
 
   return (
@@ -31,9 +31,7 @@ export default function NavbarServer() {
       <div className="hidden md:flex items-center gap-2 xl:gap-5">
         <ThemeSwitcher />
         <Link href="/#contact">
-          <Button className="dark:bg-brand dark:text-black">
-            {t('consultUs')}
-          </Button>
+          <Button>{t("consultUs")}</Button>
         </Link>
         <LocaleSwitcher />
       </div>

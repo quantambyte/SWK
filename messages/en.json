@@ -144,5 +144,64 @@
     "coo": "Chief Operating Officer",
     "cbdo": "Chief Business Development Officer",
     "AdvisoryBoard": "Advisory Board"
+  },
+
+  "DevelopmentCycle": {
+    "title": "SWK AI Software Development Cycle",
+    "step1": {
+      "title": "Discovery Phase",
+      "content": "Our BD & technical team identify the customer problem, develop a road map and gather relevant data and resources."
+    },
+    "step2": {
+      "title": "POC - Proof of Concept",
+      "content": "We develop a small scale simple version of the project to test and demonstrate the practicality."
+    },
+    "step3": {
+      "title": "AI Software Prototype",
+      "content": "We build a working prototype that incorporates AI Algorithms and models."
+    },
+    "step4": {
+      "title": "Coding & Model Training",
+      "content": "We further write & refine the codes continuously for the optimal AI software, ensuring the performance as locked with the customer."
+    },
+    "step5": {
+      "title": "Deployment & Testing",
+      "content": "Deploy the software in a controlled environment, thorough testing and bugs rectification."
+    },
+    "step6": {
+      "title": "Delivery & Updates",
+      "content": "Finalize the software as per original locked scope and assist the customer with support and maintenance."
+    }
+  },
+  "EndToEndDevelopmentCycle": {
+    "title": "END TO END DEVELOPMENT CYCLE",
+    "step1": {
+      "title": "Requirement Analysis",
+      "content": "Technically sound meetings to understand user concept & requirement in depth."
+    },
+    "step2": {
+      "title": "Commence Project",
+      "content": "Wire Frames\nUI/UX\nPrototype\nDemo"
+    },
+    "step3": {
+      "title": "Coding & Development",
+      "content": "Our experienced full-time team members develop the product with each resource contributing 40-50 hours per week."
+    },
+    "step4": {
+      "title": "Testing",
+      "content": "Unit, system and acceptance testing done thoroughly to ensure the product is delivered as conceived."
+    },
+    "step5": {
+      "title": "Deployment",
+      "content": "Deployment packages, training session and installation scripts along with source code handed over to customer."
+    },
+    "step6": {
+      "title": "Customer Feedback",
+      "content": "Customer feedback is highly valuable to us for any improvements and future projects."
+    },
+    "step7": {
+      "title": "Maintenance & Updates",
+      "content": "We extend our full support to customers for future updates or bug fixing/preventive software check."
+    }
   }
 }

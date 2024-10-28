@@ -29,7 +29,7 @@ export default function RootLayout({
       className={`${poppins.variable} ${nura.variable} ${nuraBold.variable}`}
       suppressHydrationWarning
     >
-      <body className={`bg-white dark:bg-dark-mode-bg overflow-x-hidden`}>
+      <body className={`bg-white  dark:bg-backgroundColor overflow-x-hidden`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Provider>
             <Header />

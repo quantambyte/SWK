@@ -24,7 +24,9 @@ const config: Config = {
         brandBlue: "#51bdce",
         middleBlue: "#4c83b7",
 
-        brandDark: "#141c24",
+        brandDark: "#1b1028",
+
+        backgroundColor: "#27173a",
 
         "heading-light": "#262626",
         "heading-dark": "#fff",
@@ -32,7 +34,7 @@ const config: Config = {
         dark: "#fff",
         black: "#000",
         white: "#fff",
-        purple: "#4c83b7",
+        purple: "#27173a",
         grey: "#757575",
         "dark-mode-grey": "#C2C2C2",
         maroon: "#B70DFD",

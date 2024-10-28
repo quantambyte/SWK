@@ -1,5 +1,5 @@
-import NavbarClient from '@/components/Header/NavbarClient';
-import NavbarServer from '@/components/Header/NavbarServer';
+import NavbarClient from "@/components/Header/NavbarClient";
+import NavbarServer from "@/components/Header/NavbarServer";
 
 export default function Header() {
   return (

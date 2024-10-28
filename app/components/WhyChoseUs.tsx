@@ -8,7 +8,7 @@ export default function WhyChoseUs() {
   const t = useTranslations("whyUs");
 
   return (
-    <section className="px-4 sm:px-10 md:px-20 lg:px-52 bg-[#f5f5f5] dark:bg-dark-bg py-20 relative grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 place-items-center font-poppins">
+    <section className="px-4 sm:px-10 md:px-20 lg:px-52 bg-[#f5f5f5] dark:bg-brandDark py-20 relative grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 place-items-center font-poppins">
       <div className="hidden md:block grid-cols-5">
         <Image src={whyUs} alt="Why CHose Us" width={550} height={450} />
       </div>
