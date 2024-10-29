@@ -53,24 +53,24 @@ const LifecycleModel = () => {
 
   return (
     <section className=" from-gray-50 to-gray-200  w-full mx-auto py-16 px-6 sm:px-8 md:px-16 lg:px-24 font-poppins relative">
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-12 text-center">
+      <h2 className="mt-4 md:mt-6 text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-12 text-center">
         {t("title")}
       </h2>
 
       {/* Step-by-Step Container with Lifecycle Flow */}
-      <div className="relative flex flex-col md:flex-row items-center justify-center md:space-x-10 space-y-10 md:space-y-14">
+      <div className="relative flex flex-col md:flex-row items-center justify-center md:space-x-10 gap-8 md:py-12">
         {lifecycleSteps.map((step, index) => (
           <div
             key={index}
-            className={`flex flex-col  even:md:flex-col-reverse  items-center text-center relative`}
+            className={`flex flex-col even:md:flex-col-reverse md:gap-4 gap-6  items-center text-center relative `}
           >
             {/* Connector Line */}
-            {index !== 0 && (
+            {/* {index !== 0 && (
               <div className="absolute -left-16 top-1/2 transform -translate-y-1/2 w-16 md:w-32 h-0.5 border-dotted border-gray-400 dark:border-gray-500 md:flex hidden"></div>
-            )}
+            )} */}
 
             {/* Icon with Centered Roman Numeral */}
-            <div className="relative flex items-center justify-center">
+            <div className="relative flex items-center justify-center ">
               {/* Icon */}
               <div className="text-8xl text-brand relative">
                 {step.icon}
@@ -85,7 +85,7 @@ const LifecycleModel = () => {
             </div>
 
             {/* Step Content */}
-            <div className="mt-6 max-w-52">
+            <div className=" max-w-52">
               <h3 className="text-lg font-semibold text-brand mb-2">
                 {t(step.titleKey)}
               </h3>

@@ -20,13 +20,18 @@ html {
   margin-right: 20px;
 }
 
-.gradient-bg {
-  background-image: linear-gradient(
-    to right,
-    #1b1028,
-    #8b4b9b,
-    #1b1028
-  ) !important;
+/* .gradient-bg {
+  background-image: linear-gradient(to right, #1b1028, #8b4b9b, #1b1028);
+} */
+
+/* .gradient-bg-light {
+  background-image: radial-gradient(
+    circle,
+    #aa60bd 0%,
+    #6c367a 0%,
+    #1b1028 100%,
+    #1b1028 100%
+  );
 }
 
 .gradient-bg-light {
@@ -37,7 +42,7 @@ html {
     rgba(180, 111, 197, 1) 100%,
     rgba(180, 111, 197, 1) 100%
   );
-}
+} */
 
 .gradient-bg-ppl {
   background-image: linear-gradient(to right, #8b4b9b, #4c83b7, #51bdce);

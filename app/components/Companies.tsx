@@ -10,7 +10,7 @@ export default function Companies() {
   const locale = useLocale();
 
   return (
-    <section className="font-poppins relative min-h-[500px] md:min-h-[90vh] dark:gradient-bg gradient-bg-light ">
+    <section className="font-poppins relative min-h-[500px] md:min-h-[90vh] dark:bg-gradient-bg-dark bg-gradient-bg-light ">
       <div className="px-4 sm:px-10 md:px-20 md:absolute md:top-0 md:left-0 lg:px-52 py-20 companies-bg w-full flex flex-col items-center lg:items-end justify-center h-full">
         <Image
           src={bg}

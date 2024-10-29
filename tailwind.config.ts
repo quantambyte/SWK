@@ -13,6 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "wave-img": "url(/assets/services-bg.svg)",
+
+        "gradient-bg-dark":
+          "radial-gradient(circle, #aa60bd 0%, #6c367a 0%, #1b1028 100%, #1b1028 100%)",
+        "gradient-bg-light":
+          "radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(236, 218, 240, 1) 0%, rgba(180, 111, 197, 1) 100%, rgba(180, 111, 197, 1) 100%)",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],

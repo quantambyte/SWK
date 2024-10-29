@@ -23,7 +23,7 @@ export default function GlobalPartners() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10">
         {ABOUT_US.map((service, index) => (
           <div key={index} className="relative">
-            <Card className="flex flex-col dark:bg-dark-mode-bg dark:text-white justify-between h-full z-50 hover:shadow-[8px_8px_20px_-4px_rgba(20,50,1,0.2)] hover:shadow-brand transition-shadow duration-300 ease-in-out">
+            <Card className="flex flex-col dark:bg-dark-mode-bg dark:text-white justify-between h-full z-50 hover:shadow-[4px_4px_15px_0px_rgba(20,50,1,0.2)] hover:shadow-brand shadow-md transition-shadow duration-300 ease-in-out ">
               <div className="flex flex-col items-center text-center gap-y-10 w-full px-4 py-2">
                 <service.icon className="text-brand" size="43" />
                 <div className="flex flex-col justify-between flex-grow gap-y-2">
