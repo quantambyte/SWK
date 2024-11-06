@@ -43,7 +43,7 @@ export default function CookieConsent() {
             {t("content")}
             <Link
               href={`/${localeActive}/info/policy`}
-              className="text-blue-500 hover:underline"
+              className="text-middleBlue hover:underline"
             >
               {t("CookiePolicy")}
             </Link>
@@ -59,7 +59,7 @@ export default function CookieConsent() {
           </button>
           <button
             onClick={handleAcceptAllCookies}
-            className=" text-white px-4 py-2 rounded-md hover:bg-middleBlue dark:hover:bg-brand"
+            className=" text-white px-4 py-2 rounded-md bg-middleBlue dark:bg-brand"
           >
             {t("buttonSecond")}
           </button>
