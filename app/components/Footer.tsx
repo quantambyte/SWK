@@ -15,39 +15,43 @@ export default function Footer() {
     <footer className="px-4 sm:px-10 md:px-20 lg:px-52 py-20 font-poppins min-h-[30vh] relative bg-brand dark:bg-brandDark bg-wave-img bg-cover bg-center">
       <div className="grid gird-cols-1 md:grid-cols-2 mb-5 gap-12 md:gap-20 z-50 md:mb-20 lg:mb-44 ">
         <div
-          className={`flex flex-col items-center md:items-start text-center md:text-left gap-3 ${
+          className={`flex flex-col items-center md:items-start text-center md:text-left gap-4 ${
             activeLocale === DE_LOCALE ? "items-end" : "items-start"
           }`}
         >
-          <Image src={tleLogo} alt="SWK" width={90} height={40} />
+          <Image
+            src={tleLogo}
+            alt="SWK"
+            width={200}
+            height={40}
+            className="mb-4"
+          />
           <div className="flex items-center justify-center md:justify-start">
-            {activeLocale === EN_LOCALE && (
-              <IoLocationSharp size="25px" color="white" className="mr-1" />
-            )}
-            <span className="text-[#d9d9d9] text-[16px] max-w-[50%] md:max-w-[100%]">
+            {/* {activeLocale === EN_LOCALE && ( */}
+            <IoLocationSharp size="25px" color="white" className="mr-1" />
+            {/* )} */}
+            <span className="text-[#d9d9d9] text-[16px] max-w-[50%] md:max-w-[80%]">
               {t("address")}
             </span>
-            {activeLocale === DE_LOCALE && (
+            {/* {activeLocale === DE_LOCALE && (
               <IoLocationSharp size="25px" color="white" className="ml-1" />
-            )}
+            )} */}
           </div>
           <div className="flex items-center justify-center md:justify-start">
-            {activeLocale === EN_LOCALE && (
-              <MdEmail size="25px" color="white" className="mr-1" />
-            )}
+            {/* {activeLocale === EN_LOCALE && ( */}
+            <MdEmail size="25px" color="white" className="mr-1" />
+            {/* )} */}
 
             <span className="text-[#d9d9d9] text-[16px]">
-              <Link href="mailto:info@ktk-experts.com">
-                info@ktk-experts.com
-              </Link>
+              <Link href="mailto:Info@swk-tek.com">Info@swk-tek.com</Link>
             </span>
-            {activeLocale === DE_LOCALE && (
+            {/* {activeLocale === DE_LOCALE && (
               <MdEmail size="25px" color="white" className="ml-1" />
-            )}
+            )} */}
           </div>
-          <div className="flex items-center justify-center md:justify-start">
+          {/* <div className="flex items-center justify-center md:justify-start">
             {activeLocale === EN_LOCALE && (
-              <MdPhone size="25px" color="white" className="mr-1" />
+            <MdPhone size="25px" color="white" className="mr-1" />
             )}
 
             <span className="text-[#d9d9d9] text-[16px]">
@@ -56,7 +60,7 @@ export default function Footer() {
             {activeLocale === DE_LOCALE && (
               <MdEmail size="25px" color="white" className="ml-1" />
             )}
-          </div>
+          </div> */}
         </div>
 
         {/* Links */}

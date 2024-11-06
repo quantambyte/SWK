@@ -21,7 +21,7 @@ export default function NavLogo() {
       src={resolvedTheme === LIGHT_THEME ? LightModeLogo : DarkModeLogo}
       width={220}
       height={61.5}
-      className="w-[70px] dark:w-[85px] dark:p-2 md:w-[70px] lg:w-[80px] xl:w-[100px]"
+      className="w-[70px] md:w-[70px] lg:w-[120px] xl:w-[150px]"
     />
   );
 }

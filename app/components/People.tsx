@@ -1,11 +1,16 @@
 import React from "react";
-import ceo from "../assets/people/ceo.jpeg";
-import coo from "../assets/people/coo.jpeg";
-import cto from "../assets/people/coo.jpeg";
+// import ceo from "../assets/people/ceo.jpeg";
+// import coo from "../assets/people/coo.jpeg";
+// import cto from "../assets/people/coo.jpeg";
 // import advisoryBoard from "../assets/people/advisory board.jpeg";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Content } from "next/font/google";
+
+import ceo from "../assets/people/qazi sahab.png";
+import cto from "../assets/people/kafe sahab.png";
+import coo from "../assets/people/shahbaz khan.png";
+import cbdo from "../assets/people/zaeem zafar.png";
 
 const People = () => {
   const t = useTranslations("People");
@@ -35,7 +40,7 @@ const People = () => {
     {
       name: "Zaeem Zafar",
       title: t("cbdo"),
-      image: coo.src,
+      image: cbdo.src,
       content:
         "15+ years experience of international business devlopment and global partnerships.",
     },
@@ -60,7 +65,7 @@ const People = () => {
                 className="text-center text-gray-500 dark:text-white flex flex-col items-center"
               >
                 <div className="hexagon-container">
-                  <div className="hexagon p-0">
+                  <div className="hexagon dark:bg-[#271739] p-0">
                     <Image
                       src={person.image}
                       alt={person.name}

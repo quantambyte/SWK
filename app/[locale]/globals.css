@@ -78,9 +78,9 @@ html {
 
 .hexagon-container {
   position: relative;
-  width: 260px; /* Width of the hexagon */
-  height: 230px; /* Height is width * sqrt(3)/2 for a perfect hexagon */
-  background-color: #ae77d6; /* Background color */
+  width: 257px; /* Width of the hexagon */
+  height: 228px; /* Height is width * sqrt(3)/2 for a perfect hexagon */
+  background-color: #ae77d6;
   /* margin: 57.74px 0; Vertically center */
   display: flex;
   justify-content: center;
@@ -93,7 +93,7 @@ html {
   position: relative;
   width: 250px; /* Width of the hexagon */
   height: 220px; /* Height is width * sqrt(3)/2 for a perfect hexagon */
-  background-color: #4b0082; /* Background color */
+  background-color: white; /* Background color */
   /* margin: 57.74px 0; Vertically center */
   overflow: hidden;
   clip-path: polygon(25% 6.7%, 75% 6.7%, 95% 50%, 75% 93.3%, 25% 93.3%, 5% 50%);
