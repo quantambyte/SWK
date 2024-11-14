@@ -29,7 +29,7 @@ export default function NavbarServer() {
       </ul>
 
       <div className="hidden md:flex items-center gap-2 xl:gap-5">
-        <ThemeSwitcher />
+        {/* <ThemeSwitcher /> */}
         <Link href="/#contact">
           <Button>{t("consultUs")}</Button>
         </Link>

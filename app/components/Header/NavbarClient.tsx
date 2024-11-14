@@ -73,7 +73,7 @@ export default function NavbarClient() {
           <Button>{t("consultUs")}</Button>
           <div className="flex gap-2">
             <LocaleSwitcher className={`${hoverClasses}`} />
-            <ThemeSwitcher className={`!m-0 ${hoverClasses}`} />
+            {/* <ThemeSwitcher className={`!m-0 ${hoverClasses}`} /> */}
           </div>
         </div>
       </div>

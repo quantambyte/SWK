@@ -14,6 +14,12 @@ import BusinessModel from "@/components/BusinessModel";
 import ContactForm from "@/components/Contact";
 import DevelopmentCycle from "@/components/DevelopmentLifeCycle";
 import EndToEndDevelopmentCycle from "@/components/EndToEndDevelopmentCycle";
+import NewBusinessModel from "@/components/NewBusinessModel";
+import CompaniesLogoSlider from "@/components/CompaniesSlider";
+import MembershipSection from "@/components/Memberships";
+import GetStarted from "@/components/GetStarted";
+import TestimonialCard from "@/components/NewTestimonials";
+import Technologies from "@/components/Technologies";
 
 export default function Home() {
   const t = useTranslations("index");
@@ -22,15 +28,22 @@ export default function Home() {
     <main className="flex min-h-screen flex-col overflow-x-hidden">
       <Hero />
       <GlobalPartners />
-      <EndToEndDevelopmentCycle />
-      <Companies />
-      <BusinessModel />
       <Services />
-      <WhyChoseUs />
-      <People />
-      <DevelopmentCycle />
+      <Technologies />
+      {/* fourth section - Tools & Technologies We Use */}
+      <NewBusinessModel />
+      {/* <BusinessModel /> */}
+      <EndToEndDevelopmentCycle />
+      <CompaniesLogoSlider />
+      <MembershipSection />
+      {/* <Companies /> */}
+      {/* <DevelopmentCycle /> */}
+      {/* <WhyChoseUs /> */}
+      {/* <TestimonialCard /> */}
       <Testimonials />
-      <ContactForm />
+      <People />
+      <GetStarted />
+      {/* <ContactForm /> */}
       <Footer />
     </main>
   );

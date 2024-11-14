@@ -15,12 +15,13 @@ export default function Services() {
       <div className="absolute z-10 top-[10%] xl:top-[10%] left-0 right-0 bottom-[-20%]">
         <Image className="hidden md:block" src={bg} alt="Background" fill />
       </div>
-      <header className="flex flex-col  gap-4 md:gap-10 items-center mb-10 md:flex-row">
-        <div className="font-bold text-lg md:text-xl lg:text-3xl xl:text-[40px] w-full">
+      {/* <header className="flex flex-col  gap-4 md:gap-10 items-center mb-10 md:flex-row"> */}
+      <header className="flex justify-center items-center mb-16 w-full">
+        <div className="flex justify-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl w-full">
           <h3>{t("heading.part1")}</h3>
-          <h3>{t("heading.part2")}</h3>
+          {/* <h3>{t("heading.part2")}</h3> */}
         </div>
-        <p>{t("content")}</p>
+        {/* <p>{t("content")}</p> */}
       </header>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">

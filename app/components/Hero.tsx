@@ -10,12 +10,12 @@ export default function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="h-[60vh] md:h-[90vh] dark:bg-backgroundColor bg-wave-img bg-cover bg-center flex flex-col items-center justify-center font-poppins gap-5 relative">
-      <h6 className="text-brand  z-10 font-semibold text-sm md:text-[16px]">
+    <section className="h-[60vh] md:h-[90vh] dark:bg-backgroundColor bg-wave-img-hero bg-cover bg-center flex flex-col items-center justify-center font-poppins gap-5 relative">
+      {/* <h6 className="text-brand  z-10 font-semibold text-sm md:text-[16px]">
         Top Rated Technology Company
-      </h6>
+      </h6> */}
       <h6 className="flex z-10 flex-col gap-5 text-center text-3xl md:text-5xl  text-brand ">
-        <span className="font-nura">{t("welcome")}</span>
+        {/* <span className="font-nura">{t("welcome")}</span> */}
         <span className="font-nuaBold font-bold md:text-7xl leading-3 ">
           SWK Technologies
         </span>
@@ -34,13 +34,13 @@ export default function Hero() {
         </Link>
       </div>
 
-      <Image
+      {/* <Image
         src={person}
         alt="Persons working"
         width={320}
         height={240}
         className="hidden scale-x-[-1] lg:block absolute bottom-10 right-0 -z-5"
-      />
+      /> */}
 
       <Image
         src={leftImage}

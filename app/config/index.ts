@@ -24,6 +24,7 @@ import {
 import WhyUs1 from "@/assets/why-us/1.svg";
 import WhyUs2 from "@/assets/why-us/2.svg";
 import WhyUs3 from "@/assets/why-us/3.svg";
+import exp from "constants";
 
 export const theme = {
   LIGHT: {
@@ -77,6 +78,15 @@ export const HEADER_LINKS = [
     label: "productsServices",
     href: "/#services",
   },
+  {
+    id: "our-projects",
+    label: "our-projects",
+    href: "/projects",
+  },
+];
+
+export const FOOTER_LINKS = [
+  ...HEADER_LINKS,
   {
     id: "testimonials",
     label: "testimonials",

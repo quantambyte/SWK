@@ -2,20 +2,22 @@
   "index": {},
   "hero": {
     "welcome": "Willkommen bei",
-    "trusted": "Partner für Ihre digitale Reise",
-    "get-started": "Legen Sie los",
+    "trusted": "Umwandlung von Wahrnehmung in Technologien",
+    "get-started": "Einen Termin vereinbaren",
     "our-services": "Unser Service"
   },
   "header": {
     "home": "heim",
     "aboutUs": "Über uns",
     "productsServices": "Services",
+    "our-projects": "Unsere Projekte",
     "testimonials": "Kundenstimmen",
     "consultUs": "Beratung"
   },
   "about": {
-    "heading": "Ihr Technologischer Partner des Vertrauens",
-    "content": "SWK Technologies GmbH Ihr Partner für erstklassige Remote-Technikteams und maßgeschneiderte Softwarelösungen. Wir sind auf Business Processing Outsourcing Staff Augmentation Cyber Security Cloud Computing Softwareentwicklung und vieles mehr spezialisiert. Verbessern Sie Ihre Effizienz und Sicherheit ohne die Nachhaltigkeit außen vor zu lassen. Erreichen Sie Ihre strategischen Ziele präzise und kostengünstig. Schaffen Sie mit uns Innovationen über Grenzen hinaus.",
+    "heading": "Über SWK Technologies",
+    "content": "SWK Technologies ist ein führendes Technologieunternehmen, das von einem Team erfahrener Branchenführer gegründet wurde, von denen jeder über 20 Jahre Erfahrung in seinen jeweiligen Technologiebereichen verfügt. Unsere Mitbegründer sind Experten in verschiedenen Bereichen der Technologie, darunter IT, Informatik, künstliche Intelligenz, IoT, Netzwerke, Softwareentwicklung und ERP-Lösungen. Ihr kollektives Wissen und ihre Leidenschaft für Innovation haben zusammengefunden, um ein Unternehmen zu schaffen, das bahnbrechende Lösungen liefert, die auf die einzigartigen Bedürfnisse von Unternehmen weltweit zugeschnitten sind.",
+    "paragraph-two": "Bei SWK Technologies sind wir der Meinung, dass Technologie ein kraftvoller Wachstumsmotor und Effizienztreiber sein sollte. Unsere Mission ist es, Organisationen zu befähigen, indem wir ihnen hochmoderne Software, KI-gesteuerte Erkenntnisse und umfassende IT-Lösungen zur Verfügung stellen, die Transformation und Erfolg vorantreiben. Mit einem starken Fokus auf Innovation nutzen wir die neuesten technologischen Fortschritte, um maßgeschneiderte Lösungen anzubieten, die die spezifischen Herausforderungen unserer Kunden adressieren.",
     "service1": {
       "title": "Bleiben Sie verbunden",
       "description": "Wir gestalten die Zukunft mit fortschrittlichen Technologie Lösungen die auf Ihre Bedürfnisse zugeschnitten sind."
@@ -32,7 +34,7 @@
 
   "services": {
     "heading": {
-      "part1": "Wir bieten",
+      "part1": "Unsere Dienstleistungen",
       "part2": "Spezialisten & Services"
     },
     "content": "Wir bieten eine breite Palette an Technologie Lösungen die den Erfolg Ihres Unternehmens steigern. Entdecken Sie wie wir Ihnen helfen können Ihre Ziele zu erreichen.",
@@ -77,6 +79,7 @@
     "aboutUs": "Über uns",
     "productsServices": "Produkte & Services",
     "testimonials": "Kundenstimmen",
+    "our-projects": "Unsere Projekte",
     "consult": "Beratung",
     "subscribeNewsLetter": "Newsletter anmelden",
     "enterEmail": "Geben Sie Ihre E-Mail Adresse an",
@@ -122,6 +125,10 @@
   },
   "OurBusinessModel": {
     "OurBusinessModel": "Unser Geschäftsmodell",
+    "FixedPrice": "Festpreis",
+    "DedicatedDevelopmentTeam": "Dediziertes Entwicklungsteam",
+    "RevenueSharing": "Ertragsbeteiligung",
+
     "title1": "Produktentwicklungs-Lebenszyklus",
     "content1": "Von der Ideenfindung bis zum Launch begleiten wir Sie durch jede Phase des Produktentwicklungslebenszyklus und sorgen für Qualität und Effizienz.",
     "title2": "Individuelle Softwareentwicklung",
@@ -137,7 +144,7 @@
     "Send": "Senden"
   },
   "People": {
-    "title": "Unser Team",
+    "title": "Unsere Führung",
     "content": "Lernen Sie unser Expertenteam kennen, das leidenschaftlich daran arbeitet, Visionen mit innovativen Strategien in die Realität umzusetzen",
     "cto": "Chief Technology Officer",
     "ceo": "Chief Executive Officer",

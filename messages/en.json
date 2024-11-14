@@ -2,20 +2,22 @@
   "index": {},
   "hero": {
     "welcome": "Welcome to",
-    "trusted": "Trusted partner for your Digital Journey",
-    "get-started": "Get Started",
+    "trusted": "CONVERTING PERCEPTION TO TECHNOLOGIES",
+    "get-started": "Get an Appointment",
     "our-services": "Our Services"
   },
   "header": {
     "home": "Home",
     "aboutUs": "About Us",
     "productsServices": "Services",
+    "our-projects": "Our Projects",
     "testimonials": "Testimonials",
     "consultUs": "Contact Us"
   },
   "about": {
-    "heading": "Your Go To Technology Partner",
-    "content": "SWK Technologies, your partner for elite remote technical teams and bespoke software solutions. Specializing in App & Web Dev, Cloud Computing, Cyber Security, IoT, AI, Robotics, Industry 4.0/5.0, Business Solutions (ERP), Chat Bots and more, we enhance efficiency, safety, and sustainability. Achieve your strategic goals with precision and cost-effectiveness. Innovate beyond limits with us.",
+    "heading": "About SWK Technologies",
+    "content": "SWK Technologies is a pioneering technology company founded by a team of seasoned industry leaders, each with over 20 years of experience in their respective technology fields. Our co-founders are experts in diverse areas of technology, including IT, computer sciences, artificial intelligence, IoT, networking, software development, and ERP solutions. Their collective knowledge and passion for innovation have come together to create a company that delivers cutting-edge solutions tailored to meet the unique needs of businesses across the globe.",
+    "paragraph-two": "At SWK Technologies, we believe that technology should be a powerful enabler of growth and efficiency. Our mission is to empower organizations by providing them with state-of-the-art software, AI-driven insights, and comprehensive IT solutions that drive transformation and success. With a strong focus on innovation, we leverage the latest advancements in technology to offer customized solutions that address the specific challenges faced by our clients.",
     "service1": {
       "title": "Stay Connected",
       "description": "Pioneering the future with cutting-edge technology solutions tailored to your business needs."
@@ -31,7 +33,7 @@
   },
   "services": {
     "heading": {
-      "part1": "We Provide",
+      "part1": "Our Services",
       "part2": "Services"
     },
     "content": "We provide a wide range of technological solutions designed to enhance the success of your business. Discover how we can help you achieve your goals.",
@@ -76,6 +78,7 @@
     "aboutUs": "About Us",
     "productsServices": "Products & Services",
     "testimonials": "Testimonials",
+    "our-projects": "Our Projects",
     "consult": "Contact Us",
     "subscribeNewsLetter": "Subscribe to our Newsletter",
     "enterEmail": "Enter your email",
@@ -121,6 +124,9 @@
   },
   "OurBusinessModel": {
     "OurBusinessModel": "Our Business Model",
+    "FixedPrice": "Fixed Price",
+    "DedicatedDevelopmentTeam": "Dedicated Development Team",
+    "RevenueSharing": "Revenue Sharing",
 
     "title1": "Product Development Life Cycle",
     "content1": "From ideation to launch, we guide you through every stage of the product development life cycle, ensuring quality and efficiency.",
@@ -137,7 +143,7 @@
     "Send": "Send"
   },
   "People": {
-    "title": "Our team",
+    "title": "Our Leadership",
     "content": "Meet our expert team, passionate about turning vision into reality with innovative strategies",
     "cto": "Chief Technology Officer",
     "ceo": "Chief Executive Officer",

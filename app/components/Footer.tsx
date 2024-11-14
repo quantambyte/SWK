@@ -5,7 +5,13 @@ import { MdEmail, MdPhone } from "react-icons/md";
 import { useLocale, useTranslations } from "next-intl";
 
 import tleLogo from "@/assets/dark-logo.svg";
-import { DE_LOCALE, EN_LOCALE, HEADER_LINKS, SOCIAL_LINKS } from "@/config";
+import {
+  DE_LOCALE,
+  EN_LOCALE,
+  FOOTER_LINKS,
+  HEADER_LINKS,
+  SOCIAL_LINKS,
+} from "@/config";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -65,7 +71,7 @@ export default function Footer() {
 
         {/* Links */}
         <ul className="flex flex-col text-white gap-4 items-center md:items-start justify-between">
-          {HEADER_LINKS.map((link) => (
+          {FOOTER_LINKS.map((link) => (
             <Link key={link.id} href={link.href}>
               {t(link.label)}
             </Link>
