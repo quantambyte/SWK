@@ -28,7 +28,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "wave-img-hero": "url(/assets/services-bg1.svg)",
+        "wave-img-hero": "url(/assets/hero/hero-bg.svg)",
         "wave-img": "url(/assets/services-bg.svg)",
 
         "gradient-bg-dark":

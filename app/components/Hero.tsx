@@ -3,6 +3,8 @@ import Image from "next/image";
 
 import person from "@/assets/hero/persons.svg";
 import leftImage from "@/assets/hero/left.svg";
+import imageHerobg from "@/assets/hero/hero-bg.svg";
+
 import Button from "./Button";
 import Link from "next/link";
 
@@ -10,7 +12,15 @@ export default function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="h-[60vh] md:h-[90vh] dark:bg-backgroundColor bg-wave-img-hero bg-cover bg-center flex flex-col items-center justify-center font-poppins gap-5 relative">
+    <section className="h-[60vh] md:h-[90vh] dark:bg-backgroundColor bg-cover bg-center flex flex-col items-center justify-center font-poppins gap-5 relative">
+      <Image
+        src={imageHerobg}
+        alt="hero-bg"
+        className="absolute -z-50 w-full h-auto object-cover"
+        layout="responsive"
+        width={2000}
+        height={1000}
+      />
       {/* <h6 className="text-brand  z-10 font-semibold text-sm md:text-[16px]">
         Top Rated Technology Company
       </h6> */}
